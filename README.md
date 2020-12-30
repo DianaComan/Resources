@@ -1,7 +1,7 @@
 # Resources
 A project made for MPS second assigment.
 
-In this project, there are involved 5 people with the following roles:
+In this project, there are 5 people involved with the following roles:
 
 1. Coman Diana - Project Manager/Software Developer/Technical Writer
 2. Sevastre Anca - Software Developer/Technical Writer
