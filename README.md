@@ -11,4 +11,4 @@ In this project, there are 5 people involved with the following roles:
 
 For this project, we decided to work with Java Spring and Maven for the backend part. We used MySQL8 and Hibernate for databases. We implemented the solution using the MVC pattern. 
 
-The front end is made with Javascript.
+The front end is made with Javascript, using Reactjs, CSS and Axios.
