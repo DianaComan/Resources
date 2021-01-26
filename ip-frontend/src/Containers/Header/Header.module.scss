@@ -1,0 +1,117 @@
+.headerContainer {
+  height: 8vh;
+  width: 100%;
+  background-color: #f6f6f6;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.logo {
+  margin-right: 700px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-left: 0px;
+  height: 50px;
+  width: 200px;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+  img {
+    margin: 10px;
+    width: 220px;
+    height: 50px;
+  }
+
+}
+
+.buttons {
+  margin: 0.5px 0.5px auto 0;
+  min-width: 250px;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: center;
+}
+
+.link {
+  font-size: 1.25em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #36893A;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.link:hover {
+  color: #36893A;
+}
+
+:global {
+  .ant-menu-horizontal {
+    background: transparent;
+    @media (max-width: 1000px) {
+      width: 200px;
+    }
+  }
+
+  .ant-menu-horizontal > .ant-menu-item:hover {
+    border-bottom: 3px solid #36893A;
+    color: #36893A;
+    opacity: 0.75;
+  }
+
+  .ant-menu-horizontal > .ant-menu-item {
+    border-bottom: 3px solid transparent;
+    opacity: 1;
+  }
+
+  .ant-menu-item, .ant-menu-submenu-title {
+    padding: 0 5px;
+    @media (max-width: 300px) {
+      padding: 0 1px;
+    }
+  }
+
+  .ant-menu-horizontal > .ant-menu-item > a {
+    color: #36893A;
+    transition: font-weight 0.1s ease-in-out;
+    @media (max-width: 800px) {
+      font-size: xx-small;
+    }
+  }
+
+  .ant-menu-horizontal > .ant-menu-item > a:hover {
+    color:#36893A;
+    font-weight: bolder;
+  }
+}
+
+.activeTab {
+  border-bottom: 4px solid #36893A!important;
+
+  :global {
+    .ant-menu-horizontal > .ant-menu-item {
+      border-bottom: 3px solid #36893A !important;
+    }
+
+    .ant-menu-horizontal > .ant-menu-item:hover {
+      border-bottom: 3px solid #36893A;
+      color: #36893A;
+    }
+
+    .ant-menu-horizontal > .ant-menu-item > a {
+      color: #36893A;
+      transition: font-weight 0.001s ease-in-out;
+    }
+
+    .ant-menu-horizontal > .ant-menu-item > a:hover {
+      color: #36893A;
+      font-weight: bolder;
+    }
+  }
+}
